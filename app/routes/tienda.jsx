@@ -7,6 +7,8 @@ export function meta() {
   return [
     {
       title: "GuitarLA - Tienda de Guitarras",
+    },
+    {
       despcrition: "GuitarLA nuestra colección de guitarras",
     },
   ];
