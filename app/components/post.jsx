@@ -14,7 +14,7 @@ export default function Post({ post }) {
         <h3>{title}</h3>
         <p className="fecha">{formatearFecha(publishedAt)}</p>
         <p className="resumen">{contenido[0].children[0].text}</p>
-        <Link className="enlace" to={`/posts/${url}`}>
+        <Link className="enlace" to={`/blog/${url}`}>
           Leer post
         </Link>
       </div>
