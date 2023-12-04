@@ -1,7 +1,5 @@
 export default function Curso({ curso }) {
-  console.log(curso);
   const { contenido, imagen, titulo } = curso;
-  console.log(imagen.data.attributes.url);
 
   return (
     <section className="curso">

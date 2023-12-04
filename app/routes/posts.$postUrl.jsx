@@ -41,7 +41,6 @@ export function meta({ data }) {
 
 export default function Post() {
   const post = useLoaderData();
-  console.log(post);
 
   const { title, contenido, imagen, publishedAt } = post.data[0].attributes;
   return (
